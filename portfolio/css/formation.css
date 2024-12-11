@@ -1,0 +1,63 @@
+        body {
+            font-family: A, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #0c0c0c;
+			text-decoration: 0;
+            margin: auto;
+            max-width: 1000px;
+        }
+
+        .menu {
+            background-color: #333; /* Fond sombre pour la barre de navigation */
+            padding: 10px 0;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Légère ombre pour un effet subtil */
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        
+        .menu ul li {
+            display: inline;
+            margin-right: 20px; /* Espacement entre les éléments */
+        }
+        
+        .menu ul li a {
+            color: #ffffff; /* Texte clair */
+            text-decoration: none; /* Enlever le soulignement par défaut */
+            font-weight: normal; /* Texte normal (pas gras) */
+            font-size: 16px; /* Taille du texte */
+            padding: 5px 15px; /* Espacement autour des liens */
+            border-radius: 3px; /* Coins arrondis */
+            transition: background-color 0.3s ease; /* Transition douce pour le changement de fond */
+        }
+        
+        .menu ul li a:hover {
+            background-color: #555; /* Changement de couleur de fond au survol */
+            text-decoration: underline; /* Souligner au survol */
+        }
+
+		h2 {
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+            text-align: center;
+        }
+        
+        p {
+            color: rgb(0, 0, 0);
+            margin-left: 15px;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+        }
+
+         html body {
+            background:url(../teckel_1200x630.webp) no-repeat;
+            background-size: cover;
+        }
