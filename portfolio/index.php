@@ -16,7 +16,7 @@
     </div>
     </body>
 </html>
-
+<img src="Mon image.jpg" class="image-right">
 <?php
 
 require_once("yaml\yaml.php");

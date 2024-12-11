@@ -61,3 +61,10 @@ html body {
     background: url("../chien-saucisse-teckel.webp") no-repeat;
     background-size: cover;
 }
+
+.Mon-image.jpg {
+    float: right;
+    width: 100px;
+    height: auto;
+    margin: 10px; 
+}
